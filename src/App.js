@@ -6,14 +6,14 @@ import ValueContext from "./ValueContext";
 
 function App() {
     let value = useState(48);
-    // let value = 81;
+
 
     return (
         <ValueContext.Provider value={value}> 
             <div>
                 Hello App
-                <Parent></Parent>
-                <button>Click me!</button>
+                <Parent />
+               
             </div>
         </ValueContext.Provider> 
     );
