@@ -6,7 +6,7 @@ function Parent() {
     return (
         <div>
             <p>Parent</p>
-            <Child></Child>
+            <Child/>
         </div>
     );
 
