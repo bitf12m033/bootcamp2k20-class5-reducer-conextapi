@@ -1,12 +1,12 @@
 import React from "react";
 import Child from "./Child";
 
-function Parent({number}) {
+function Parent() {
    
     return (
         <div>
-            <p>Parent {number}</p>
-            <Child number={number}></Child>
+            <p>Parent</p>
+            <Child></Child>
         </div>
     );
 
